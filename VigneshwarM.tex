@@ -1,0 +1,233 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Vigneshwar M} \\ \vspace{1pt}
+    \small +916369047626 $|$ \href{mailto:vigneshwar221b@gmail.com}{\underline{vigneshwar221b@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/Vigneshwar221B
+}{\underline{linkedin.com/in/vigneshwar221b
+/}} $|$
+    \href{https://github.com/vigneshwar221b}{\underline{github.com/vigneshwar221b}}
+\end{center}
+
+%-----------EXPERIENCE-----------
+
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+\section{Experience}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Presidio Solutions Private Limited}{Oct. 2021 -- Present}
+      {Software Engineer Intern}{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{Trained on Java for back end development}
+        \resumeItem{Built a fully fledged website with authentication using  Struts and Hibernate}
+    \resumeItemListEnd
+  
+      \resumeSubheading
+      {Asian Fireworks Trade Media Group}{Feb. 2021 -- April. 2021}
+      {Freelancer}{Remote}
+      \resumeItemListStart
+        \resumeItem{Developed a web app that manages their client orders using ExpressJs, EJS, MongoDB and deployed it on Heroku}
+         \resumeItem{Added authentication and authorisation levels for each employee levels}
+        \resumeItem{Reduced their work time from 4+ hours to 1 hour}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {MacDatum}{July 2020 -- Aug 2020}
+      {Fullstack Developer Intern}{Remote}
+      \resumeItemListStart
+        \resumeItem{Worked on their existing REST API and was responsible for managing the API endpoints}
+        \resumeItem{Added the Redux model to their existing React project while maintaining the project's original design pattern}
+        \resumeItem{Used Axios library to interact with the back end and was responsible for modifying the API endpoints when needed}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Learn Code Online}{May 2019 -- July 2019}
+      {Technical content writer}{Remote}
+      \resumeItemListStart
+        \resumeItem{Was responsible for writing tutorials on Golang on their blog}
+        \resumeItem{Written around 30+ articles covering Golang basics to writing a REST API server with Go}
+        
+        \resumeItem{At the end, developed a full stack website with Go and React and  published the written articles explaining each step}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\href{https://github.com/vigneshwar221B/Farmazon}{\textbf{Faramazon}} $|$ \emph{ExpressJs, EJS, MongoDB}}{}
+          \resumeItemListStart
+            \resumeItem{Developed an E-Commerce website for farmers and consumers}
+            \resumeItem{Farmers can sell their goods without any third party and directly sell it to the end consumers}
+            \resumeItem{Created authorisation levels for each users - farmers and consumers. Used PassportJs for the authentication}
+            \resumeItem{Used the stripe API for the transactions}
+          \resumeItemListEnd
+          
+        \resumeProjectHeading
+          {\href{https://github.com/vigneshwar221B/whisper-go-backend}{\textbf{Whisper}} $|$ \emph{Golang, React}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack web application with Golang serving a REST API with React as the front end}
+            \resumeItem{Allows user to share their thoughts anonymously}
+            \resumeItem{These "whispers" are stored in Atlas and only the original posters can edit/delete it}
+          \resumeItemListEnd
+          
+             
+        \resumeProjectHeading
+          {\href{https://github.com/vigneshwar221B/linky}{\textbf{Linky}} $|$ \emph{ExpressJs, EJS, MongoDB}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a website with Nodejs and MongoDB that allows user to share links from various social media groups}
+            \resumeItem{Users can share links for their personal Whatsapp group, private discord servers, telegram groups, etc}
+            \resumeItem{Other can like, comment and write review on the posts about their groups}
+            \resumeItem{Used multer to store the images and deployed it in a EC2 instance}
+            
+          \resumeItemListEnd
+          
+         \resumeProjectHeading
+          {\href{https://github.com/vigneshwar221B/seefood}{\textbf{Seefood}} $|$ \emph{Kotlin, MLKit}}{}
+          \resumeItemListStart
+            \resumeItem{Developed an Android app with Kotlin and used MLKit for the object classification — of foods}
+            \resumeItem{Used the native camera libraries to fetch images and used it against the ML model}
+            \resumeItem{Was successfully able to classify 94\% of the foods}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+%-------------------------------
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sri Krishna College of Technology}{Coimbatore}
+      {B.E in Computer Science - \texttt{CGPA: 8.01}}{Jun. 2018 -- 2022 Expected} 
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Kotlin, Swift, Python, Go, C/C++, JavaScript, Typescript, HTML/CSS } \\
+     \textbf{Frameworks}{: React, React Native, Jquery, NextJs, ExpressJs, PassportJs, Firebase, MLKit, Tensorflow, Keras} \\
+     
+  \textbf{Technologies}{: MySql, PostgreSql, MongoDB, Heroku, Atlas, AWS (EC2, S3, Lambda), Git} \\
+ 
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
